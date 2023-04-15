@@ -1,0 +1,42 @@
+a {
+    color: white;
+    text-decoration: none;
+  }
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "i l";
+  background-color: rgb(4, 17, 52);
+  height: 80px;
+}
+
+.logo {
+  grid-area: l;
+  display: grid;
+  font-size: 30px;
+  align-items: center;
+  color: white;
+  justify-content: end;
+  margin-right: 25px;
+}
+
+.items {
+  grid-area: i;
+  display: grid;
+  grid-template-columns: 120px 120px;
+  justify-content: start;
+  margin-left: 25px;
+}
+
+.navbar_items {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.navbar_items {
+  text-decoration: none;
+  color: white;
+}

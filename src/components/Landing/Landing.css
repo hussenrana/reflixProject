@@ -1,0 +1,13 @@
+.text_container {
+  margin: 0 auto;
+  color: white;
+  font-size: 35px;
+}
+
+.container {
+    grid-area: users;
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    justify-content: center;
+    margin-top: 55px;
+}

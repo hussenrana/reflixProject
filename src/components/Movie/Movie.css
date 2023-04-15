@@ -1,0 +1,25 @@
+.image {
+  cursor: pointer;
+  width: 400px;
+  height: 500px;
+}
+
+.image img {
+  width: 400px;
+  height: 500px;
+  border-radius: 12px;
+}
+
+.rent {
+  position: absolute;
+  margin-left: 330px;
+  margin-top: 10px;
+  color: white;
+  font-size: 40px;
+  border: solid 2px white;
+  border-radius: 360px;
+  padding-bottom: 2px;
+  padding-left: 13px;
+  padding-right: 13px;
+  cursor: pointer;
+}
